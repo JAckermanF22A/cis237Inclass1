@@ -13,6 +13,14 @@ namespace cis237Inclass1
             Person person = new Person("David", "Barnes", 25);
 
             person.PrintFullName();
+
+            PersonCollection personCollection = new PersonCollection();
+
+            personCollection.addPerson(person);
+
+            personCollection.addPerson(new Person("Not", "DeclaredFirst", 34));
+
+            Console.WriteLine(personCollection.getPersonCollectionToString());
         }
     }
 }
