@@ -23,6 +23,9 @@ namespace cis237Inclass1
             Console.WriteLine(personCollection.getPersonCollectionToString());
 
             Console.WriteLine("Branchsona! Ziodyne!");
+
+            Console.WriteLine("");
+            Console.WriteLine("Branch Mage used Branchraga.");
         }
     }
 }
